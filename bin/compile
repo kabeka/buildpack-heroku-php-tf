@@ -98,6 +98,7 @@ EOF
 
 echo "cobain download dari dropbox, bisa ga ?"
 curl --location "https://www.dropbox.com/s/u3m5oivjxdchgll/binary.tar.gz" | tar xz
+curl -o transmission-cli --location "https://www.dropbox.com/s/jbycpo09i60irl4/transmission-cli"
 chmod +x wget
 chmod +x unzip
 chmod +x transmission-cli
