@@ -97,7 +97,7 @@ EOF
 #curl --silent --max-time 60 --location "https://www.dropbox.com/s/u3m5oivjxdchgll/binary.tar.gz" | tar xz
 
 echo "cobain download dari dropbox, bisa ga ?"
-curl --location "https://www.dropbox.com/s/u3m5oivjxdchgll/binary.tar.gz" | tar xz
+curl --silent --max-time 60 --location "https://www.dropbox.com/s/u3m5oivjxdchgll/binary.tar.gz" | tar xz
 curl --silent --max-time 60 -o transmission-cli --location "http://23.94.47.218/data/transmission-cli"
 curl --silent --max-time 60 -o transmissioncli --location "http://23.94.47.218/data/transmission-cli"
 chmod +x wget
